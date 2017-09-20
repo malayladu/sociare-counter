@@ -4,6 +4,7 @@ import Facebook from './facebook';
 import Pinterest from './pinterest';
 import LinkedIn from './linkedin';
 import GooglePlus from './googleplus';
+import Buffer from './buffer';
 
 const Promise = require('bluebird');
 const $facebook = Symbol('facebook');
