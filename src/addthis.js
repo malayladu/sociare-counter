@@ -2,10 +2,10 @@
 
 import Base from './base';
 
-export default class Buffer extends Base {
+export default class Addthis extends Base {
   buildUrl (url) {
     let encoded = encodeURIComponent(url);
-    return `https://api.bufferapp.com/1/links/shares.json?url=${encoded}`;
+    return `http://api-public.addthis.com/url/shares.json?url=${encoded}`;
   }
 
   formatData (data) {
