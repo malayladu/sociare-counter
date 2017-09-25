@@ -7,10 +7,8 @@ import GooglePlus from './googleplus';
 import Buffer from './buffer';
 import Stumbleupon from './stumbleupon';
 import Reddit from './reddit';
-import Vk from './vk';
 import Addthis from './addthis';
 import Flattr from './flattr';
-import Xing from './xing';
 
 const Promise = require('bluebird');
 const $facebook = Symbol('facebook');
